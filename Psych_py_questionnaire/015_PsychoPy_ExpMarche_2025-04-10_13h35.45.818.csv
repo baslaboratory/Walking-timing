@@ -1,0 +1,5 @@
+﻿welcome.started,welcome.stopped,key_resp.keys,key_resp.rt,key_resp.duration,participant,session,date,expName,psychopyVersion,OS,frameRate,demo.block_1/age,demo.block_1/gender,demo.block_1/education,demo.block_1/handedness,demo.block_1/experience,demo.block_1/pe3,demo.block_1/fatigue,demo.block_1/attention,miq.block_1/miq1.miq1,miq.block_1/miq2.miq2,miq.block_1/miq3.miq3,miq.block_1/miq4.miq4,miq.block_1/miq5.miq5,miq.block_1/miq_attention_check.attention_check,miq.block_1/miq6.miq6,miq.block_1/miq7.miq7,miq.block_1/miq8.miq8,miq.block_1/miq9.miq9,miq.block_1/miq10.miq10,miq.block_1/miq11.miq11,miq.block_1/miq12.miq12,bye.started,bye.stopped
+0.0003,0.9226,space,0.8976,,015,001,2025-04-10_13h35.45.818,PsychoPy_ExpMarche,2024.2.0,Win32,59.88023952,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,015,001,2025-04-10_13h35.45.818,PsychoPy_ExpMarche,2024.2.0,Win32,59.88023952,21,Femme,secondary,right,FALSE,FALSE,5,2,,,,,,,,,,,,,,,
+,,,,,015,001,2025-04-10_13h35.45.818,PsychoPy_ExpMarche,2024.2.0,Win32,59.88023952,,,,,,,,,4,2,1,5,2,3,2,5,3,2,5,3,2,,
+,,,,,015,001,2025-04-10_13h35.45.818,PsychoPy_ExpMarche,2024.2.0,Win32,59.88023952,,,,,,,,,,,,,,,,,,,,,,910.0706,913.0651
