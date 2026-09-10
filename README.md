@@ -70,7 +70,7 @@ Run Bayesian equivalence paired-samples t-tests for:
 •	ME_10m vs MI_10m
 •	ME_15m vs MI_15m
 Use the predefined equivalence region:
-•	δ ∈ [-0.01, 0.01]
+•	δ ∈ [-0.1, 0.1]
 Report the Bayes factors for each distance.
 Correlations
 Run Pearson correlations between:
