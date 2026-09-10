@@ -31,7 +31,7 @@ bland_altman_plot <- function(df, measure_ext, measure_int, title, color, filena
     geom_hline(yintercept = c(lower, upper), color=color, linetype="dashed") +
     scale_x_continuous(limits = c(0, 18), breaks = seq(0, 18, 2)) +    # Ticks et limites sur X
     scale_y_continuous(limits = c(-6, 6), breaks = seq(-6, 6, 2), expand = c(0, 0)) +    # Inclure 0 dans Y
-    labs(title = title, x="Mean of execution and imagery (s)", y="Difference imagery - execution (s)") +
+    labs(title = title, x="Mean of execution and imagery (s)", y="Difference execution - imagery (s)") +
     theme_minimal(base_size = 14) +  # Utilisation de theme minimal
     theme(
       panel.background = element_rect(fill = "white", colour = NA),
@@ -108,7 +108,7 @@ global_plot <- ggplot(combined_data, aes(x=mean, y=diff, color=Distance)) +
   
   labs(title = "Bland-Altman Plot Global avec Bornes par Distance",
        x="Mean of ME and MI",
-       y="Differences between ME and MI",
+       y="Differences ME - MI (execution - imagery)",
        color="Distance") +
   
   theme_minimal(base_size = 14) +  # Utilisation de theme minimal
